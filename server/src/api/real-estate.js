@@ -4,7 +4,7 @@
 
 const express = require('express');
 const { body, param } = require('express-validator');
-const realEstateController = require('../controllers/realEstateControllers');
+const realEstateController = require('../controllers/realEstateControllers/index');
 const { auth, checkPermission, checkOwnership } = require('../middleware/auth');
 const validationMiddleware = require('../middleware/validation');
 
@@ -481,5 +481,29 @@ router.delete(
   validationMiddleware,
   realEstateController.deleteTransaction
 );
+
+/**
+ * @route GET /api/real-estate/dashboard/stats
+ * @desc Get dashboard statistics
+ */
+router.get('/dashboard/stats', auth, realEstateController.getDashboardStats);
+
+/**
+ * @route GET /api/real-estate/dashboard/recent-listings
+ * @desc Get recent listings for dashboard
+ */
+router.get('/dashboard/recent-listings', auth, realEstateController.getRecentListings);
+
+/**
+ * @route GET /api/real-estate/dashboard/upcoming-showings
+ * @desc Get upcoming showings for dashboard
+ */
+router.get('/dashboard/upcoming-showings', auth, realEstateController.getUpcomingShowings);
+
+/**
+ * @route GET /api/real-estate/dashboard/activities
+ * @desc Get recent activities for dashboard
+ */
+router.get('/dashboard/activities', auth, realEstateController.getRecentActivities);
 
 module.exports = router;
