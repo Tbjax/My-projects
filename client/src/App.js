@@ -50,7 +50,6 @@ const LoanApplicationCreate = lazy(() => import('./pages/mortgage/loan-applicati
 const LoanApplicationEdit = lazy(() => import('./pages/mortgage/loan-application/Edit'));
 
 // Maintenance Module
-const MaintenanceDashboard = lazy(() => import('./pages/maintenance/Dashboard'));
 const WorkOrderList = lazy(() => import('./pages/maintenance/work-order/List'));
 const WorkOrderDetails = lazy(() => import('./pages/maintenance/work-order/Details'));
 const WorkOrderCreate = lazy(() => import('./pages/maintenance/work-order/Create'));

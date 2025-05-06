@@ -1,0 +1,2 @@
+{"error":"","level":"error","message":"Database query error","params":["test"],"query":"SELECT id, username, email, password, first_name, last_name, \n              is_active, email_verified_at\n       FROM core.users \n       WHERE (username = $1 OR email = $1)","service":"intranet-platform","timestamp":"2025-05-05 18:02:07"}
+{"error":"","level":"error","message":"Login error","service":"intranet-platform","timestamp":"2025-05-05 18:02:07"}

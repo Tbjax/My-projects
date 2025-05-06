@@ -1,0 +1,27 @@
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 17:54:20"}
+{"level":"info","message":"::1 - - [05/May/2025:23:56:18 +0000] \"GET / HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0\"","service":"intranet-platform","timestamp":"2025-05-05 17:56:18"}
+{"level":"info","message":"::1 - - [05/May/2025:23:56:18 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0\"","service":"intranet-platform","timestamp":"2025-05-05 17:56:18"}
+{"level":"info","message":"::1 - - [05/May/2025:23:57:17 +0000] \"GET / HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0\"","service":"intranet-platform","timestamp":"2025-05-05 17:57:17"}
+{"level":"info","message":"::1 - - [05/May/2025:23:57:25 +0000] \"GET / HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"intranet-platform","timestamp":"2025-05-05 17:57:25"}
+{"level":"info","message":"::1 - - [05/May/2025:23:57:25 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"intranet-platform","timestamp":"2025-05-05 17:57:25"}
+{"level":"info","message":"::1 - - [05/May/2025:23:58:54 +0000] \"GET /health HTTP/1.1\" 200 54 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"intranet-platform","timestamp":"2025-05-05 17:58:54"}
+{"level":"info","message":"::1 - - [05/May/2025:23:58:54 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"intranet-platform","timestamp":"2025-05-05 17:58:54"}
+{"level":"info","message":"::1 - - [06/May/2025:00:01:02 +0000] \"GET /api HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"intranet-platform","timestamp":"2025-05-05 18:01:02"}
+{"level":"info","message":"::1 - - [06/May/2025:00:01:02 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"intranet-platform","timestamp":"2025-05-05 18:01:02"}
+{"error":"","level":"error","message":"Database query error","params":["test"],"query":"SELECT id, username, email, password, first_name, last_name, \n              is_active, email_verified_at\n       FROM core.users \n       WHERE (username = $1 OR email = $1)","service":"intranet-platform","timestamp":"2025-05-05 18:02:07"}
+{"error":"","level":"error","message":"Login error","service":"intranet-platform","timestamp":"2025-05-05 18:02:07"}
+{"level":"info","message":"::1 - - [06/May/2025:00:02:07 +0000] \"POST /api/auth/login HTTP/1.1\" 500 39 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-CA) WindowsPowerShell/5.1.26100.3624\"","service":"intranet-platform","timestamp":"2025-05-05 18:02:07"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 19:14:28"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 19:17:44"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:05:45"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:11:26"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:12:28"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:12:54"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:15:01"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:15:50"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:24:30"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:28:12"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:30:46"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:33:06"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 20:38:12"}
+{"level":"info","message":"Server running in undefined mode on port 5000","service":"intranet-platform","timestamp":"2025-05-05 22:09:48"}
